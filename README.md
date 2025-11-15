@@ -6,9 +6,13 @@ An AI-powered chatbot that analyzes CSV files and answers questions using free L
 #### Please create API keys first : 
 
 For Groq : [https://console.groq.com/keys](url)
+
 For Cerebras : [https://cloud.cerebras.ai/platform/org_2f52r2n624x68m9pjtfnpkry/playground?utm_source=homepage](url)
+
 For OpenRouter : [https://openrouter.ai/sign-in?redirect_url=https%3A%2F%2Fopenrouter.ai%2Fsettings%2Fkeys](url)
+
 For OpenAI/GPT : [https://platform.openai.com/docs/quickstart/create-and-export-an-api-key](url)
+
 
 #### Note that OpenAI key is not free. 
 
