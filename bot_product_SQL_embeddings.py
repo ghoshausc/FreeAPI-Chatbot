@@ -95,6 +95,8 @@ get_embeddings_and_store_in_file(final_df)
 
 end_begin = time.time()
 
+
+
 print_flush("Whole process took time : ",end_begin - start_begin,"\n\n")
 
 ############################################ Emnbeddings stored locally ############################################
