@@ -102,3 +102,35 @@ print(json.dumps(response.json(), indent=2))
 ###### Check out OpenRouter free limits here : [https://openrouter.ai/docs/api-reference/overview](url)
 
 
+## Examples with Question and Bot's answer : 
+
+#### User's question : How many accidents took place in 2019? What were the areas? Who were the victoms?
+
+#### Bot's answer : 
+
+{
+    "Response": [
+        "Based on the provided JSON data, I've analyzed the information and constructed a relevant answer to the user's question.",
+        "",
+        "**Accidents in 2019:**",
+        "There were 3 accidents that took place in 2019.",
+        "",
+        "**Areas:**",
+        "The areas where these accidents occurred are:",
+        "",
+        "1. Central (on 09/01/2019, 07/11/2019, 06/23/2019, 09/02/2019, 09/04/2019, 11/20/2019, 07/12/2019, 07/09/2019, 07/15/2019, 08/30/2019, 08/31/2019, 04/27/2019, 07/08/2019, 07/10/2019, 07/04/2019, 06/29/2019, 07/17/2019, 07/07/2019)",
+        "2. Hollywood (on 03/19/2019)",
+        "",
+        "**Victims:**",
+        "Unfortunately, the provided JSON data does not contain information about the victims of these accidents.",
+        "",
+        "**Additional Information:**",
+        "Although not directly related to the question, it's worth noting that there was 1 accident on 03/19/2019 at Hollywood and 2 accidents on other dates are present in 'Identify accidents that took place in 2019 year' section ",
+        "",
+        "Here is the DR Number and Date for accidents which took place in 2019 as per 'Identify accidents that took place in 2019 year': ",
+        "- No DR Number is available. However, Date for one accident is 03/19/2019.",
+        "",
+        "If you need more information or clarification, please let me know."
+    ]
+}
+
