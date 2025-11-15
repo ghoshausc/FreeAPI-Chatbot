@@ -13,15 +13,10 @@ An AI-powered chatbot that analyzes CSV files and answers questions using free L
 
 ##### Groq has a free tier, check it out here : [https://console.groq.com/docs/rate-limits](url)
 
-##### Check all avaialble Groq models here : 
-```curl -X GET "https://api.groq.com/openai/v1/models" \
-     -H "Authorization: Bearer $GROQ_API_KEY" \
-     -H "Content-Type: application/json"```
-
 ##### Basic Groq API syntax : 
 
-
-```python from openai import OpenAI
+```python
+from openai import OpenAI
 import os
 client = OpenAI(
     api_key=os.environ.get("GROQ_API_KEY"),
