@@ -78,7 +78,7 @@ for chunk in stream:
   print(chunk.choices[0].delta.content or "", end="")
 ```
 
-#####OpenRouter code snippet : 
+##### OpenRouter code snippet : 
 
 ```python
 import requests
