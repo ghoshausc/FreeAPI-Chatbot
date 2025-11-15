@@ -134,3 +134,6 @@ print(json.dumps(response.json(), indent=2))
     ]
 }
 
+#### Screenshot : 
+
+<img width="1046" height="899" alt="freeapi_bot" src="https://github.com/user-attachments/assets/77231fd7-31a5-47ac-a41d-9fd461781098" />
