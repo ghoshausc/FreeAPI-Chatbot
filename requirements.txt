@@ -1,0 +1,17 @@
+openai==0.28
+pandas
+numpy
+Flask
+flask-cors
+transformers
+sentence-transformers
+scikit-learn
+torch
+####### For CUDA, follow link : https://pytorch.org/get-started/locally/
+pyarrow
+demjson3
+sqlalchemy
+psycopg2-binary
+cerebras.cloud.sdk 
+openrouter
+openrouter-client
