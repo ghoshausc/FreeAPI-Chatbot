@@ -1,7 +1,16 @@
 # FreeAPI-Chatbot
-An AI-powered chatbot that analyzes CSV files and answers questions using free LLM APIs (Groq, Cerebras, OpenRouter). A helpful study tool for students, learners, and data beginners. This will be especially helpful for students/ beginners in LLM.
+An AI-powered chatbot that analyzes CSV files and answers questions using free LLM APIs (Groq, Cerebras, OpenRouter). A helpful study tool for students, learners, and data beginners. This will be especially helpful for students/ data beginners in LLM.
 
 ### This API uses all Free LLM APIs to build an intelligent chatbot that answers questions from a CSV file. 
+
+#### Please create API keys first : 
+
+For Groq : [https://console.groq.com/keys](url)
+For Cerebras : [https://cloud.cerebras.ai/platform/org_2f52r2n624x68m9pjtfnpkry/playground?utm_source=homepage](url)
+For OpenRouter : [https://openrouter.ai/sign-in?redirect_url=https%3A%2F%2Fopenrouter.ai%2Fsettings%2Fkeys](url)
+For OpenAI/GPT : [https://platform.openai.com/docs/quickstart/create-and-export-an-api-key](url)
+
+#### Note that OpenAI key is not free. 
 
 #### Please use python >3.9 to run this. Follow the steps below : 
 
@@ -13,7 +22,9 @@ An AI-powered chatbot that analyzes CSV files and answers questions using free L
 
 ##### Groq has a free tier, check it out here : [https://console.groq.com/docs/rate-limits](url)
 
-##### Basic Groq API syntax : 
+##### Get all available Groq models here : [https://console.groq.com/docs/models](url)
+
+##### Basic Groq API syntax (with OpenAI model) : 
 
 ```python
 from openai import OpenAI
@@ -29,6 +40,8 @@ response = client.responses.create(
 )
 print(response.output_text)
 ```
+##### Groq API syntax (with Llama/other model) : 
+
 
 ##### Cerebras API create key and use Playground here : [https://cloud.cerebras.ai/platform/org_repdydkp566nht4ymvj4wt4d/playground](url)
 
