@@ -21,8 +21,7 @@ An AI-powered chatbot that analyzes CSV files and answers questions using free L
 ##### Basic Groq API syntax : 
 
 
-```python
-from openai import OpenAI
+```python from openai import OpenAI
 import os
 client = OpenAI(
     api_key=os.environ.get("GROQ_API_KEY"),
