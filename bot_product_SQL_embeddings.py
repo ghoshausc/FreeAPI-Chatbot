@@ -85,7 +85,7 @@ final_df = final_df.astype(str)
 
 ############################# Discard rows having False under column "Vendor Item Description"!
 
-final_df = final_df.head(10000)   ########### Checkinf if everything works well with a sample of the data!
+#final_df = final_df.head(10000)   ########### Checkinf if everything works well with a sample of the data!
 
 print_flush(f"\n\n Final df has columns : {final_df.shape} \n\n")
 
