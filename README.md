@@ -1,5 +1,5 @@
 # FreeAPI-Chatbot
-An AI-powered chatbot that analyzes CSV files and answers questions using free LLM APIs (Groq, Cerebras, OpenRouter). A helpful study tool for students, learners, and data beginners. This will be especially helpful for students/ data beginners in LLM.
+An AI-powered chatbot that analyzes CSV files and answers questions using free LLM APIs (Groq, Cerebras, OpenRouter). A helpful study tool for students, learners, and data beginners. This will be especially helpful for students/ data beginners in LLM. The **Postman Collection for the Input and Output** has been added to repo. 
 
 ### This API uses all Free LLM APIs to build an intelligent chatbot that answers questions from a CSV file. 
 
