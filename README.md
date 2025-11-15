@@ -16,6 +16,11 @@ For OpenAI/GPT : [https://platform.openai.com/docs/quickstart/create-and-export-
 
 #### Note that OpenAI key is not free. 
 
+##### Data file originally downloaded from Kaggle : [https://www.kaggle.com/datasets/johnsonmoon/traffic-collision-data-from-2010-to-present
+](url)
+
+##### A subset of the data has been uploaded here, please use the full dataset for better results.
+
 #### Please use python >3.9 to run this. Follow the steps below : 
 
 1. Create a conda environment : ```conda create --name=myenv python=3.10```/```python -m venv myenv python=3.10```
