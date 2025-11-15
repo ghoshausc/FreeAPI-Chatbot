@@ -1,0 +1,54 @@
+{
+	"info": {
+		"_postman_id": "aa5e586b-79b5-478d-b4be-ce52c3ec497e",
+		"name": "FreeAPI_personal",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "31497449"
+	},
+	"item": [
+		{
+			"name": "Own_system",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "query",
+							"value": "How many accidents took place in 2019? What were the areas? Who were the victoms?",
+							"type": "text"
+						}
+					]
+				},
+				"url": "http://127.0.0.1:5006/product_bot"
+			},
+			"response": []
+		},
+		{
+			"name": "Own_system Copy",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "query",
+							"value": "Which street near Hollywod had the most accidents? in which years? ",
+							"type": "text"
+						}
+					]
+				},
+				"url": "http://127.0.0.1:5006/product_bot"
+			},
+			"response": []
+		}
+	]
+}
